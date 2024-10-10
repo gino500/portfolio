@@ -10,7 +10,7 @@ import {
 
 // Routes
 import App from "./App.jsx";
-import "./index.css";
+import "./global.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(<Route path="/" element={<App />}></Route>)

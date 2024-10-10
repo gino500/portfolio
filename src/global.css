@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Cinzel", "serif", "Times New Roman";
+  font-size: 16px;
+}
