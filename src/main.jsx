@@ -9,8 +9,8 @@ import {
 } from "react-router-dom";
 
 // Routes
-import App from "./App.jsx";
 import "./index.css";
+import App from "./App.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(<Route path="/" element={<App />}></Route>)

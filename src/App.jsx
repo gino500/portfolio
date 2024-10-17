@@ -1,18 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-
-import "./App.css";
+import HeaderScreen from "./screens/header/HeaderScreen.jsx";
 
 function App() {
-  const checkApp = "App Working";
   return (
     <div>
-      <div>{checkApp}</div>
-      {/* header */}
+      <HeaderScreen />
       <ToastContainer />
       <Outlet />
-      {/* footing */}
     </div>
   );
 }
