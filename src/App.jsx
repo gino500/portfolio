@@ -5,11 +5,11 @@ import HeaderScreen from "./screens/header/HeaderScreen.jsx";
 
 function App() {
   return (
-    <div>
+    <>
       <HeaderScreen />
       <ToastContainer />
       <Outlet />
-    </div>
+    </>
   );
 }
 
