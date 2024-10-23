@@ -1,0 +1,88 @@
+.nav-wrapper {
+  width: 100vw;
+  min-height: 160px;
+  /* Undecided backgrounds */
+  /* background: url("../../assets/nav-bg.png"); */
+  /* background: transparent; */
+  box-shadow: 0 8px 18px -6px white;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 2em;
+}
+
+.home-wrapper {
+  display: flex;
+  justify-content: end;
+  width: 30vw;
+}
+
+.text-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 40vw;
+}
+
+.contact-wrapper {
+  display: flex;
+  width: 30vw;
+}
+
+.all-text {
+  color: antiquewhite;
+}
+
+.home {
+  padding-right: 4.5em;
+}
+
+.projects {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.contact {
+  padding-left: 2em;
+}
+
+.social-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 643px) {
+  .social-wrapper {
+    align-items: end;
+    height: 80px;
+  }
+  .linkedin {
+    margin-top: 11px;
+    align-self: center;
+  }
+}
+
+.linkedin {
+  padding-top: 12px;
+  margin-right: 10px;
+}
+
+.github {
+  width: 27vw;
+}
+
+ul,
+li,
+a {
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 18.5px;
+  text-decoration: underline;
+}
