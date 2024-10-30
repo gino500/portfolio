@@ -11,9 +11,14 @@ import {
 // Routes
 import "./index.css";
 import App from "./App.jsx";
+import HomeScreen from "./screens/home/HomeScreen.jsx";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/" element={<App />}></Route>)
+  createRoutesFromElements(
+    <Route path="/" element={<App />}>
+      <Route path="/" element={<HomeScreen />}></Route>
+    </Route>
+  )
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
