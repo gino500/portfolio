@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import navBg from "../../assets/nav-bg.png";
 import LinkedInLogo from "../../assets/linkedin-logo.svg";
 import githubLogo from "../../assets/github.svg";
 import "./HeaderScreen.css";
@@ -9,7 +8,7 @@ const HeaderScreen = () => {
   return (
     <nav className="nav-wrapper">
       <ul className="text-wrapper">
-        <div className="home-wrapper">
+        <div className="homeBtn-wrapper">
           <li>
             <NavLink to={"/home"} className="all-text home">
               Home
@@ -33,7 +32,7 @@ const HeaderScreen = () => {
             </NavLink>
           </li>
         </div>
-        <div className="contact-wrapper">
+        <div className="contactBtn-wrapper">
           <li>
             <NavLink to={"/contact"} className="all-text contact">
               Contact
