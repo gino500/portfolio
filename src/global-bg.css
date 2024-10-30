@@ -1,0 +1,8 @@
+.global-bg {
+  height: 100vh;
+  overflow: scroll;
+  background: url("./assets/app-bg.jpg");
+  background-size: 125% 90%;
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
