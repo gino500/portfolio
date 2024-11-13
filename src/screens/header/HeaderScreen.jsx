@@ -10,7 +10,7 @@ const HeaderScreen = () => {
       <ul className="text-wrapper">
         <div className="homeBtn-wrapper">
           <li>
-            <NavLink to={"/home"} className="all-text home">
+            <NavLink to={"/"} className="all-text home">
               Home
             </NavLink>
           </li>
@@ -22,7 +22,7 @@ const HeaderScreen = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to={"/project"} className="all-text projects">
+            <NavLink to={"/projects"} className="all-text projects">
               Projects
             </NavLink>
           </li>
