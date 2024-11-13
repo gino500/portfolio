@@ -1,0 +1,28 @@
+.about-wrapper {
+  color: white;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 90vh;
+}
+
+.about-title {
+  margin-top: 15px;
+  font-size: 1.9em;
+  font-weight: 400;
+}
+.about-text {
+  margin-top: 15px;
+  width: 50%;
+  font-weight: 300;
+  font-size: 1.1em;
+  text-shadow: white 0px 0px 1px;
+}
+
+span {
+  color: white;
+}
