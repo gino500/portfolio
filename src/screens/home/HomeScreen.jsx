@@ -11,10 +11,10 @@ const HomeScreen = () => {
           <div className="name-wrapper">
             <h1>
               I'm
-              <span className="text-name"> Gino Gallo</span>
+              <span className="text-color"> Gino Gallo</span>
             </h1>
             <p>
-              A full-stack <span>web developer</span>
+              A full-stack <span className="text-color">web developer</span>
             </p>
           </div>
           <div className="projectBtn-wrapper">
